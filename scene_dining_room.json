@@ -1,13 +1,14 @@
-﻿{
-  "name": "bedroom",
-  "description": " where {0} sleeps.",
+{
+  "name": "dining room",
+  "description": "a room where food is served and eaten",
   "classes": [
-    "bedroom"
+    "dining"
   ],
   "connectionNumber": 2,
   "connectionTypes": [
+    "parlor",
     "utility",
-	"bathroom"
+    "kitchen"
   ],
   "containsTypes": [
     "furniture",

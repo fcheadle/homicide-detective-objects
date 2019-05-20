@@ -1,13 +1,17 @@
-﻿{
-  "name": "bedroom",
-  "description": " where {0} sleeps.",
+{
+  "name": "living room",
+  "description": " the large central room of a house",
   "classes": [
-    "bedroom"
+    "parlor"
   ],
   "connectionNumber": 2,
   "connectionTypes": [
+    "exterior",
     "utility",
-	"bathroom"
+    "subterranean",
+	"hallway",
+	"kitchen",
+	"dining"
   ],
   "containsTypes": [
     "furniture",
@@ -25,16 +29,16 @@
     "dining"
   ],
   "widthRange": {
-    "minimum": 1800,
-    "maximum": 4000,
-    "median": 2100,
-    "mode": 2250
+    "minimum": 500,
+    "maximum": 2000,
+    "median": 1250,
+    "mode": 1250
   },
   "lengthRange": {
-    "minimum": 4400,
-    "maximum": 5600,
-    "median": 4400,
-    "mode": 4525
+    "minimum": 500,
+    "maximum": 2000,
+    "median": 1250,
+    "mode": 1250
   },
   "heightRange": {
     "minimum": 200,

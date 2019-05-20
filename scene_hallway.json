@@ -1,0 +1,47 @@
+{
+  "name": "hallway",
+  "description": "a corridor for connecting multiple scenes to one another",
+  "classes": [
+    "utility"
+  ],
+  "connectionNumber": 8,
+  "connectionTypes": [
+    "exterior",
+    "utility",
+    "subterranean",
+	"bedroom",
+	"dining",
+	"kitchen",
+	"parlor"
+  ],
+  "containsTypes": [
+	"memorabilia"
+  ],
+  "mustContain": [
+  ],
+  "cannotContain": [
+    "food_storage",
+    "vehicle",
+    "dining",
+	"sleeping_surface",
+	"sitting_surface"
+  ],
+  "widthRange": {
+    "minimum": 100,
+    "maximum": 150,
+    "median": 120,
+    "mode": 120
+  },
+  "lengthRange": {
+    "minimum": 100,
+    "maximum": 5000,
+    "median": 2750,
+    "mode": 2750
+  },
+  "heightRange": {
+    "minimum": 180,
+    "maximum": 350,
+    "median": 240,
+    "mode": 240
+  }
+}
