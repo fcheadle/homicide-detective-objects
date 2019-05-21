@@ -16,25 +16,25 @@
     "sleeping_surface"
   ],
   "connectionTypes": [
-    "commonArea",
+    "utility",
     "kitchen"
   ],
   "widthRange": {
-    "minimum": 5000,
-    "maximum": 15000,
-    "median": 6900,
-    "mode": 7750
+    "minimum": 1800,
+    "maximum": 4000,
+    "median": 2100,
+    "mode": 2250
   },
   "lengthRange": {
-    "minimum": 5000,
-    "maximum": 15000,
-    "median": 12000,
-    "mode": 10
+    "minimum": 4400,
+    "maximum": 5600,
+    "median": 4400,
+    "mode": 4525
   },
   "heightRange": {
-    "minimum": 6,
-    "maximum": 25,
-    "median": 10,
-    "mode": 10
+    "minimum": 200,
+    "maximum": 450,
+    "median": 280,
+    "mode": 245
   }
 }

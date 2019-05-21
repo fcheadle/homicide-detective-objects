@@ -2,13 +2,12 @@
   "name": "bedroom",
   "description": " where {0} sleeps.",
   "classes": [
-    "utility"
+    "bedroom"
   ],
   "connectionNumber": 2,
   "connectionTypes": [
-    "exterior",
     "utility",
-    "subterranean"
+	"bathroom"
   ],
   "containsTypes": [
     "furniture",
@@ -26,21 +25,21 @@
     "dining"
   ],
   "widthRange": {
-    "minimum": 2000,
-    "maximum": 5000,
-    "median": 2750,
-    "mode": 2750
+    "minimum": 1800,
+    "maximum": 4000,
+    "median": 2100,
+    "mode": 2250
   },
   "lengthRange": {
-    "minimum": 2000,
-    "maximum": 5000,
-    "median": 2750,
-    "mode": 2750
+    "minimum": 4400,
+    "maximum": 5600,
+    "median": 4400,
+    "mode": 4525
   },
   "heightRange": {
-    "minimum": 6,
-    "maximum": 25,
-    "median": 10,
-    "mode": 10
+    "minimum": 200,
+    "maximum": 450,
+    "median": 280,
+    "mode": 245
   }
 }
