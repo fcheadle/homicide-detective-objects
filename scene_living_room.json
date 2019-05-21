@@ -1,0 +1,49 @@
+{
+  "name": "living room",
+  "description": " the large central room of a house",
+  "classes": [
+    "parlor"
+  ],
+  "connectionNumber": 2,
+  "connectionTypes": [
+    "exterior",
+    "utility",
+    "subterranean",
+	"hallway",
+	"kitchen",
+	"dining"
+  ],
+  "containsTypes": [
+    "furniture",
+    "containers",
+    "sleeping_surface",
+    "sitting_surface"
+  ],
+  "mustContain": [
+    "sleeping_surface",
+    "furniture"
+  ],
+  "cannotContain": [
+    "food_storage",
+    "vehicle",
+    "dining"
+  ],
+  "widthRange": {
+    "minimum": 500,
+    "maximum": 2000,
+    "median": 1250,
+    "mode": 1250
+  },
+  "lengthRange": {
+    "minimum": 500,
+    "maximum": 2000,
+    "median": 1250,
+    "mode": 1250
+  },
+  "heightRange": {
+    "minimum": 200,
+    "maximum": 450,
+    "median": 280,
+    "mode": 245
+  }
+}

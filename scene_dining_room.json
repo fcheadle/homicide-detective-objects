@@ -1,0 +1,46 @@
+{
+  "name": "dining room",
+  "description": "a room where food is served and eaten",
+  "classes": [
+    "dining"
+  ],
+  "connectionNumber": 2,
+  "connectionTypes": [
+    "parlor",
+    "utility",
+    "kitchen"
+  ],
+  "containsTypes": [
+    "furniture",
+    "containers",
+    "sleeping_surface",
+    "sitting_surface"
+  ],
+  "mustContain": [
+    "sleeping_surface",
+    "furniture"
+  ],
+  "cannotContain": [
+    "food_storage",
+    "vehicle",
+    "dining"
+  ],
+  "widthRange": {
+    "minimum": 1800,
+    "maximum": 4000,
+    "median": 2100,
+    "mode": 2250
+  },
+  "lengthRange": {
+    "minimum": 4400,
+    "maximum": 5600,
+    "median": 4400,
+    "mode": 4525
+  },
+  "heightRange": {
+    "minimum": 200,
+    "maximum": 450,
+    "median": 280,
+    "mode": 245
+  }
+}

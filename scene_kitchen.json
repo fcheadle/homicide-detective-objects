@@ -1,0 +1,52 @@
+{
+  "name": "kitchen",
+  "description": "a room where food is prepared",
+  "classes": [
+    "kitchen"
+  ],
+  "connectionNumber": 2,
+  "connectionTypes": [
+    "parlor",
+    "utility",
+    "dining",
+	"utility"
+  ],
+  "containsTypes": [
+    "food_storage",
+	"food_preparation",
+	"plumbing",
+	"container",
+	"memorabilia",
+	"writing_surface",
+	"furniture"
+  ],
+  "mustContain": [
+    "food_storage",
+	"food_preparation",
+	"plumbing",
+	"container"
+  ],
+  "cannotContain": [
+	"toilet",
+    "vehicle",
+    "dining"
+  ],
+  "widthRange": {
+    "minimum": 2000,
+    "maximum": 5000,
+    "median": 2750,
+    "mode": 2750
+  },
+  "lengthRange": {
+    "minimum": 2000,
+    "maximum": 5000,
+    "median": 2750,
+    "mode": 2750
+  },
+  "heightRange": {
+    "minimum": 200,
+    "maximum": 450,
+    "median": 280,
+    "mode": 245
+  }
+}
